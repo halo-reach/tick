@@ -1,0 +1,38 @@
+code/web/src/context/AuthContext.tsx
+  ceba13aa30f68634 74-76,81-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.0",
+  "base_commit_sha": "9c7eb2a5a238d413acc3eff8c7f528620a5a2f97",
+  "prompts": {
+    "ceba13aa30f68634": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ab2aa4-0ee0-4e66-97e2-5c7991607147",
+        "model": "MiniMax-M2.7-highspeed"
+      },
+      "human_author": "halo <oceanjiang66@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/819fa628dfdcffaff22a2a67c382ac73884d04667a38234943f6b4940292fae5"
+    },
+    "e7f202d107c2750b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea80235e-056d-4562-ad7d-62f69ab4c8ad",
+        "model": "MiniMax-M2.7-highspeed"
+      },
+      "human_author": "halo <oceanjiang66@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 7,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/e2cd6dba1343cb96c926bd71b766a4a2ea06f425be7434c94761abfee3ce613c"
+    }
+  }
+}
