@@ -1,0 +1,35 @@
+# Reference docs (read-only, not tracked)
+references/
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+code/tick
+bin/
+
+# Node / Frontend
+code/web/node_modules/
+code/web/dist/
+code/web/.vite/
+code/internal/web/dist/
+
+# Local migration scripts (do not commit - may contain sensitive data)
+code/cmd/migrate/
+
+# Environment
+.env*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.gstack/
+
+# Claude Code
+.claude/
