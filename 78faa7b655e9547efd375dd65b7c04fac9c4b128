@@ -1,0 +1,34 @@
+README-en.md
+  7043fb287b30de8b 1-221
+CONTRIBUTING.md
+  7043fb287b30de8b 1-51
+.gitignore
+  7043fb287b30de8b 1-35
+CODE_OF_CONDUCT.md
+  7043fb287b30de8b 1-31
+LICENSE
+  7043fb287b30de8b 1-21
+README.md
+  7043fb287b30de8b 1-275
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.0",
+  "base_commit_sha": "78faa7b655e9547efd375dd65b7c04fac9c4b128",
+  "prompts": {
+    "7043fb287b30de8b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bed824ea-ab4b-409c-8937-e26ac6328976",
+        "model": "MiniMax-M2.7-highspeed"
+      },
+      "human_author": "jianghaiyang <jianghaiyang@cvte.com>",
+      "messages": [],
+      "total_additions": 634,
+      "total_deletions": 0,
+      "accepted_lines": 634,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/baededf939d38410721163969114f37f97e5a921fb988120b0255a4a770a6a0e"
+    }
+  }
+}
