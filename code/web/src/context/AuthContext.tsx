@@ -71,12 +71,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const register = useCallback(async (username: string, password: string, display_name?: string) => {
-    const res = await api.registerUser(username, password, display_name)
+    await api.registerUser(username, password, display_name)
+    // Register doesn't return a token, so we log in immediately to get one
+    const res = await api.loginUser(username, password)
     const d = res.data
     const info: UserInfo = { user_id: d.user_id, username: d.username, display_name: d.display_name }
     setUser(info)
     setUserInfo(info)
-    setTenants([])
+    const tenantList = d.tenants || []
+    setTenants(tenantList)
+    setTenantsInfo(tenantList)
+    if (d.token) {
+      setToken(d.token)
+    }
   }, [])
 
   const selectTenantFn = useCallback(async (tenant_id: string) => {
